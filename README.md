@@ -26,7 +26,7 @@ The actual project files are stored under `project/`.
 ## Project Structure
 project/
 - ├── data/         → raw and processed datasets (Kaggle Bike Sharing + synthetic UAV telemetry)
-- ├── src/          → Python source code and simulation modules
+- **├── src/          → Python source code and simulation modules
 - ├── notebooks/    → Jupyter notebooks for analysis and model training
 - └── report/       → project report and figures
 ---
