@@ -1,0 +1,37 @@
+Step 01: Grid initialized. 10x10 city layout loaded.
+Step 01: Grid: 10x10 cells | Hubs: 6 | Budget: $12000.
+Step 02: CSP Layout Validation PASSED. All 4 rules satisfied (R1-R4).
+Step 03: Fleet selected: 2 Light + 4 Heavy | 6 drones | cost=$9200 | fitness=0.5583.
+Step 04: Generated 5 deliveries.
+Step 05: Delivery 1 -> Drone D5 | pickup=(9, 3) dropoff=(3, 7) | route=25 cells.
+Step 05: Delivery 2 -> Drone D3 | pickup=(7, 0) dropoff=(7, 9) | route=27 cells.
+Step 05: Delivery 3 -> Drone D6 | pickup=(9, 0) dropoff=(4, 6) | route=27 cells.
+Step 05: Delivery 4 -> Drone D4 | pickup=(6, 7) dropoff=(0, 9) | route=21 cells.
+Step 05: Delivery 5 -> Drone D1 | pickup=(3, 0) dropoff=(8, 7) | route=31 cells.
+Step 06: 5 drone(s) dispatched. Routes confirmed via A* search.
+Step 07: Drones flying. Active=5 | Completed=0.
+Step 08: Drones flying. Active=5 | Completed=0.
+Step 09: Drones flying. Active=5 | Completed=0.
+Step 10: Drones flying. Active=5 | Completed=0.
+Step 11: NO-FLY ZONE activated at (5, 3) (intersects Drone D1 route).
+Step 11: Drone D1 path blocked at (5, 3). Running A* reroute.
+Step 11: Drone D1 rerouted successfully | new route=25 cells.
+Step 11: Drone D3 path blocked at (5, 3). Running A* reroute.
+Step 11: Drone D3 rerouted successfully | new route=19 cells.
+Step 11: Drone D6 path blocked at (5, 3). Running A* reroute.
+Step 11: Drone D6 rerouted successfully | new route=23 cells.
+Step 12: Rerouting complete. Drones continuing. Completed=0.
+Step 13: Drones flying. Completed=0.
+Step 14: Drone D4 completed Delivery 4 at (5, 5).
+Step 14: Drones flying. Completed=1.
+Step 15: Demand forecast integrated. Predicted avg demand = 191.12 units (Random Forest).
+Step 16: All deliveries already assigned or no idle drones available.
+Step 17: Drones flying. Completed=1.
+Step 18: Battery Anomaly on Drone D1 | battery dropped to 63.1%.
+Step 19: No emergency returns needed. 4 drone(s) continuing normally.
+Step 19: Drone D5 completed Delivery 1 at (7, 1).
+Step 19: Step 19 complete. Completed so far: 2/5.
+Step 20: Delivery 2 marked Delayed (not finished in time).
+Step 20: Delivery 3 marked Delayed (not finished in time).
+Step 20: Delivery 5 marked Delayed (not finished in time).
+Step 20: Simulation complete | Completed=2 | Delayed=3 | Failed=0.
